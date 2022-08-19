@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<title>Wh00ps - Stoupid! </title>
+<meta name='description' content='I am About Fucking!'>
+<link rel='icon' href='https://i.pinimg.com/280x280_RS/54/3b/3f/543b3f1fcd313bf31ba9a9a9355ba475.jpg'>
+<body bgcolor="black" oncontextmenu="return false" onkeydown="return false">
+<style>
+body{cursor:url("http:///foro.elhacker.net/elhacker.cur"),auto;}html{display:table;height:100%;width:100%;}body{display:table-row;}body{display:table-cell;vertical-align:middle;text-align:center;}a:link{text-decoration:none;}
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+</style>
+<link href="https://fonts.googleapis.com/css?family=Iceland" rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M2CQan8C1DY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<font face="Russo One" style="color:white;text-shadow:0px 1px 5px white;font-size:55px">Wh00ps - Stoupid! 
+
+
+
+<font face="Iceland" style="color:white;text-shadow:0px 1px 1px white;font-size:20px">
+<br>
+<font face="Iceland" style="color:white">aku tulus kok, cuma ga seganteng cowo yang kamu follow haha</font>
+<br>
+- Blackhat Hacker Indonesia - IDIOT BLACKHAT - SenpaiXCrew - Jakarta Blackhat - Jakarta Cyber Team -<br>
+<?php
+$filename = 'counter.txt';
+ 
+function counter(){		
+	global $filename;	
+ 
+	if(file_exists($filename)){		
+		$value = file_get_contents($filename);	
+	}else{		
+		$value = 0;		
+	}
+ 
+	file_put_contents($filename, ++$value);		
+}
+ 
+counter();	
+ 
+echo 'Dilihat: '.file_get_contents($filename);	
+?>
